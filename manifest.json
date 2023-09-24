@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Current Website Extension",
+    "version": "1.0",
+    "description": "Displays the current website's URL.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "applications": {
+      "gecko": {
+        "id": "current-website-extension@example.com"
+      }
+    }
+  }
+  

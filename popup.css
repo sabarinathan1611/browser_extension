@@ -1,0 +1,22 @@
+body {
+  width: 266px;
+  padding: 10px;
+  background: linear-gradient(120deg, #8a901c93, #00000097);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 149px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 18px;
+}
+.contend {
+  font-family: system-ui;
+  font-feature-settings: initial;
+  font-size: 17px;
+}
